@@ -1,0 +1,50 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    margin:50px;
+    padding:10px;
+    height: 100px;
+    width: 40%;
+    align-items:center; 
+    align-content: center;
+    justify-content: space-around;
+    background-color:white; 
+    border-radius: 2px;
+    box-shadow: 2px 2px 1px 1px  #1a85b3, -1px -1px 1px   #13678b;
+    font-size: 1.5rem;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .card:active{
+    box-shadow: 3px 3px 1px 1px  #1a85b3, -2px -2px 1px   #13678b;
+  
+  }
+  @media(max-width : 1000px) {
+    .technoMarketCard{
+      font-size: 1rem !important;
+    }
+    .card p {
+      display: none;
+    }
+    .shopName{
+      display: block !important;
+    }
+  }
+  @media(max-width : 1600px) {
+    .shopsContainer{
+      flex-direction: column;
+    }
+    .card {
+      font-size: 150%;
+      width: 90%;
+    }
+  
+  }
+  .shopsContainer{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: auto;
+    flex-wrap: wrap;
+    border: #3f8eaf7c 1px solid;
+  }

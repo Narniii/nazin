@@ -1,0 +1,32 @@
+.addProduct {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .addProduct label {
+    text-align: left;
+    display: block;
+    color: #0a465f;
+  }
+  .addProduct h2 {
+    font-size: 20px;
+    color: #1792c7;
+    margin-bottom: 30px;
+  }
+  .addProduct input, .addProduct textarea, .addProduct select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #0a465f;
+    box-sizing: border-box;
+    display: block;
+  }
+  .addProduct button {
+    background: #1792c7;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,88 @@
+.page {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 100px;
+  justify-content: center;
+  background-color:white;
+}
+.container {
+  position: relative;
+  display: flex;
+  width: 1500px;
+  padding: 100px;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+@media(max-width : 1000px) {
+  .technoMarketCard{
+    font-size: 1rem !important;
+  }
+}
+
+/* .main {
+  border: blue 1px solid;
+  padding: 50px;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+} */
+
+.technoMarketCard {
+  display: flex;
+  flex-wrap: wrap;
+  margin:30px;
+  padding:10px;
+  height: 70px;
+  width: 25%;
+  align-items:center; 
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color:white; 
+  border-radius: 2px;
+  box-shadow: 2px 2px 1px 1px  #1a85b3, -1px -1px 1px   #4098be86;
+  font-size: 2rem;
+}
+.technoMarketCard:active{
+  box-shadow: 3px 3px 1px 1px  #1a85b3, -2px -2px 1px   #13678b;
+}
+.technoMarketCard a {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.footer {
+  font-size: xx-large;
+  bottom: 0;
+  display: flex;
+  height:90px;
+  width: 100%;
+  position: fixed;
+  color: white;
+  cursor: pointer;
+  padding: 25px;
+  line-height: 50%;
+  align-items: center;
+  font-family: consolas;
+  transition: transform 1s;
+  background-color:#19a4e1;
+  justify-content: space-around;
+  /* border-top: 1px solid #eaeaea; */
+}
+.footer:hover {
+  transform: translateY(10px);
+  background-color: #1792c7;
+  box-shadow:0px -2px 8px #888;
+}
+
+
